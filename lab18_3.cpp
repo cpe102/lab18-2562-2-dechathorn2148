@@ -24,7 +24,7 @@ struct course{
 
 student * findstudent(vector<student> &allstudents,int key){ //Correct this line
 	for(unsigned int i = 0; i < allstudents.size(); i++){
-		if(allstudents[i].id  = key) return &allstudents[i];
+		if(allstudents[i].id  == key) return &allstudents[i];
 	}
 }
 
